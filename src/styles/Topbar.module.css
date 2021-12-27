@@ -1,0 +1,9 @@
+.topbar {
+  background-color: #eb2a1b;
+}
+
+.topbar h1 {
+  text-align: center;
+  font-size: 2.6rem;
+  padding: 10px 0;
+}
