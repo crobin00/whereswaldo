@@ -1,32 +1,9 @@
 import classes from '../styles/Characters.module.css';
 import Character from './Character';
 import { Link } from 'react-router-dom';
+import characters from '../characterlist.js'
 
 const Characters = () => {
-
-  const characters = [
-    {
-      name: 'Waldo',
-      img: null,
-      id: 1
-    },
-    {
-      name: 'Odlaw',
-      img: null,
-      id: 2
-    },
-    {
-      name: 'Wenda',
-      img: null,
-      id: 3
-    },
-    {
-      name: 'Wizard Whitebeard',
-      img: null,
-      id: 4
-    }
-  ]
-
   return (
     <div className={classes.container}>
       <div>

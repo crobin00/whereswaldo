@@ -1,0 +1,12 @@
+.container {
+  width: 2800px;
+  height: 1760px;
+}
+
+.play {
+  width: 100vw;
+}
+
+.play img {
+  object-fit: cover;
+}

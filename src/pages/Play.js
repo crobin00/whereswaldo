@@ -1,7 +1,14 @@
+import Gamebar from "../components/Gamebar"
+import World from '../styles/images/world1.jpeg'
+import classes from '../styles/Play.module.css'
+
 const Play = () => {
   return (
-    <div>
-      <h1>Play page</h1>
+    <div className={classes.container}>
+      <Gamebar />
+      <div className={classes.play}>
+        <img src={World} alt='World' />
+      </div>
     </div>
   )
 }
